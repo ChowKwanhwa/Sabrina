@@ -1,0 +1,137 @@
+.background-image-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.lorem-ipsum-fsfjsfs {
+  margin: 0;
+  height: 147px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.hero-container,
+.hero-section,
+.hero-text {
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.hero-text {
+  width: 43.51%;
+  margin: 0 !important;
+  position: absolute;
+  height: 19.83%;
+  top: 21.97%;
+  right: 52.4%;
+  bottom: 58.19%;
+  left: 4.09%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  z-index: 1;
+}
+.hero-container,
+.hero-section {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hero-section {
+  padding: 2px 0 0;
+  position: relative;
+}
+.hero-container {
+  padding: 0 var(--padding-9xs) var(--padding-9xs) 0;
+  text-align: center;
+  font-size: 48px;
+  color: #fbf8f8;
+  font-family: var(--font-inter);
+}
+.bikiniwhite2-1-icon,
+.crunched1-1-icon,
+.lying2-1-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 524px;
+}
+.crunched1-1-icon {
+  z-index: 1;
+}
+.image-carousell,
+.image-carousell-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.image-carousell {
+  flex: 1;
+  overflow-x: auto;
+  align-items: center;
+  justify-content: center;
+}
+.image-carousell-container {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.swap-interface {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+}
+.landing-page,
+.swap-interface-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.swap-interface-container {
+  align-self: stretch;
+  height: 405px;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 12.5px 0;
+}
+.landing-page {
+  width: 100%;
+  position: relative;
+  background-color: #f5f5f5;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: 1px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .lorem-ipsum-fsfjsfs {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lorem-ipsum-fsfjsfs {
+    font-size: 29px;
+  }
+}

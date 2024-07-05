@@ -1,0 +1,68 @@
+.logo1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-4xs);
+}
+.ca1,
+.telegram2,
+.telegram3,
+.twitter1 {
+  position: relative;
+  display: inline-block;
+  min-width: 17px;
+}
+.telegram2,
+.telegram3,
+.twitter1 {
+  min-width: 40px;
+}
+.telegram2,
+.telegram3 {
+  min-width: 53px;
+}
+.telegram3 {
+  min-width: 72px;
+}
+.footer,
+.footer-content,
+.footer-links {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.footer-links {
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  gap: var(--gap-xl);
+}
+.footer,
+.footer-content {
+  max-width: 100%;
+}
+.footer-content {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--miscellaneous-button-bezeled-fill);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 450px) {
+  .footer-content {
+    flex-wrap: wrap;
+  }
+}
