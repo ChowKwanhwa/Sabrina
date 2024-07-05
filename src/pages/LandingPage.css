@@ -61,40 +61,30 @@
   color: #fbf8f8;
   font-family: var(--font-inter);
 }
-.bikiniwhite2-1-icon,
-.crunched1-1-icon,
-.lying2-1-icon {
-  align-self: stretch;
-  flex: 1;
-  position: relative;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  flex-shrink: 0;
-  object-fit: cover;
-  min-height: 524px;
-}
-.crunched1-1-icon {
-  z-index: 1;
-}
-.image-carousell,
+
+
 .image-carousell-container {
   display: flex;
   flex-direction: row;
   max-width: 100%;
-}
-.image-carousell {
-  flex: 1;
-  overflow-x: auto;
+  max-height: 600px;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
 }
-.image-carousell-container {
-  align-self: stretch;
-  overflow: hidden;
-  align-items: flex-start;
-  justify-content: flex-start;
+
+.image-carousell {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  max-height: 600px;
 }
+
+
+
+
 .swap-interface {
   align-self: stretch;
   flex: 1;
