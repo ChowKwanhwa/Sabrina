@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import SabrinaLogoIcon from "./SabrinaLogoIcon";
 import PropTypes from "prop-types";
 import "./Header.css";
@@ -10,13 +12,13 @@ const Header = ({ className = "" }) => {
           <SabrinaLogoIcon />
         </div>
         <nav className="nav-links">
-          <a className="ca">CA</a>
-          <a className="twitter">Twitter</a>
-          <a className="telegram">Telegram</a>
-          <a className="telegram1">Dexscreener</a>
+          <Link to="/ca" className="ca">CA</Link>
+          <Link to="https://x.com/sabrinaonsol" className="twitter">Twitter</Link>
+          <Link to="https://t.me/sabrinaonlive" className="telegram">Telegram</Link>
+          <Link to="/dexscreener" className="telegram1">Dexscreener</Link>
         </nav>
         <div className="project-name">
-          <a className="sabrina">Sabrina</a>
+          <Link to="/" className="sabrina">Sabrina</Link>
         </div>
       </div>
     </header>

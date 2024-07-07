@@ -1,4 +1,5 @@
 import SabrinaLogoIcon from "./SabrinaLogoIcon";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./Footer.css";
 
@@ -10,10 +11,10 @@ const Footer = ({ className = "" }) => {
           <SabrinaLogoIcon />
         </div>
         <div className="footer-links">
-          <div className="ca1">CA</div>
-          <div className="twitter1">Twitter</div>
-          <div className="telegram2">Telegram</div>
-          <div className="telegram3">Dexscreener</div>
+          <Link to="/ca" className="ca1">CA</Link>
+          <Link to="https://x.com/sabrinaonsol" className="twitter1">Twitter</Link>
+          <Link to="https://t.me/sabrinaonlive" className="telegram2">Telegram</Link>
+          <Link to="/dexscreener" className="telegram3">Dexscreener</Link>
         </div>
       </footer>
     </section>
